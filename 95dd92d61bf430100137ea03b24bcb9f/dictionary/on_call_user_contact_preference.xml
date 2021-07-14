@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="domain_master=on_call_user_preference" label="On-Call User Contact Preference" max_length="40" name="on_call_user_contact_preference" sizeclass="7" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" hint="List of SMS sources that has to be contacted in case of escalation for specified contact attempt" label="SMS" max_length="1024" name="sms" reference="sys_on_call_contact_source" reference_qual="source_type=phone_number" reference_qual_condition="source_type=phone_number" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" hint="List of Voice sources that has to be contacted in case of escalation for specified contact attempt" label="Voice" max_length="1024" name="voice" reference="sys_on_call_contact_source" reference_qual="source_type=phone_number" reference_qual_condition="source_type=phone_number" type="glide_list"/>
+    </element>
+</database>

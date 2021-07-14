@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_643435_demoapp_callrequest">x_643435_demoapp_callrequest</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CAL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 06:42:30</sys_created_on>
+        <sys_id>78ab48601b4534100137ea03b24bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAL</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_number_78ab48601b4534100137ea03b24bcba1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 06:42:30</sys_updated_on>
+    </sys_number>
+</record_update>

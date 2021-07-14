@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_marker_click_action">
+    <cmn_map_marker_click_action action="INSERT_OR_UPDATE">
+        <action_type>display_form</action_type>
+        <dialog_form_title>user details</dialog_form_title>
+        <dialog_form_view display_value="userview" name="userview">050899f31bf4b0100137ea03b24bcbc0</dialog_form_view>
+        <name>actions</name>
+        <script><![CDATA[(function(table, sysId, snMapAPI) {
+  // write client script here
+	var url="/x_643435_demoapp_connectrequest.do?sys_id=-1);";
+	var url1="https://servicenowguru.com/scripting/user-object-cheat-sheet/";
+ //window.location=url1;
+	var w = getTopWindow();
+	w.popupOpenFocus(url);
+})(table, sysId, snMapAPI);]]></script>
+        <sys_class_name>cmn_map_marker_click_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 05:36:24</sys_created_on>
+        <sys_id>d9e51b871bf830100137ea03b24bcb4a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>actions</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>cmn_map_marker_click_action_d9e51b871bf830100137ea03b24bcb4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 07:59:43</sys_updated_on>
+    </cmn_map_marker_click_action>
+</record_update>

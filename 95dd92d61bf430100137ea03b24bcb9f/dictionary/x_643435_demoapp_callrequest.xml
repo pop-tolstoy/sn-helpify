@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SMS Requests" max_length="40" name="x_643435_demoapp_callrequest" sizeclass="21" type="collection">
+        <element default="+14582198015" label="From" mandatory="true" max_length="80" name="from" type="string"/>
+        <element label="Message" max_length="500" name="message" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.first_name;" label="Sendto" mandatory="true" max_length="80" name="sendto" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_map_filter_to_filter_item">
+    <m2m_map_filter_to_filter_item action="INSERT_OR_UPDATE">
+        <map_filter display_value="filter">bd78970b1bf830100137ea03b24bcbb7</map_filter>
+        <map_filter_item display_value="filteritem">7f88d70b1bf830100137ea03b24bcbe6</map_filter_item>
+        <order/>
+        <sys_class_name>m2m_map_filter_to_filter_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 05:49:16</sys_created_on>
+        <sys_id>5309db0b1bf830100137ea03b24bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>m2m_map_filter_to_filter_item_5309db0b1bf830100137ea03b24bcba1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 05:49:16</sys_updated_on>
+    </m2m_map_filter_to_filter_item>
+</record_update>

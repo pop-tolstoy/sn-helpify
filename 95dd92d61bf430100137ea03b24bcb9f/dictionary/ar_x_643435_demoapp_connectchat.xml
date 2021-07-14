@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Archive connectchat" max_length="40" name="ar_x_643435_demoapp_connectchat" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Blind copied" max_length="16777215" name="blind_copied" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Body" max_length="16777215" name="body" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Body text" max_length="16777215" name="body_text" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Checkpoint" max_length="40" name="checkpoint" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Content type" max_length="16777215" name="content_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Copied" max_length="16777215" name="copied" type="string"/>
+        <element label="Deleted" max_length="3" name="deleted" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Direct" max_length="16777215" name="direct" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Error string" max_length="16777215" name="error_string" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Headers" max_length="16777215" name="headers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Importance" max_length="40" name="importance" type="string"/>
+        <element dependent="target_table" label="Instance" max_length="32" name="instance" type="document_id"/>
+        <element attributes="edge_encryption_enabled=true" label="Mailbox" max_length="40" name="mailbox" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Message ID" max_length="16777215" name="message_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notification type" max_length="40" name="notification_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Receive type" max_length="40" name="receive_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recipients" max_length="16777215" name="recipients" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reply to" max_length="100" name="reply_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="16777215" name="status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Subject" max_length="160" name="subject" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Archived" max_length="40" name="sys_archived" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Archive restored" max_length="40" name="sys_archive_restored" type="glide_date_time"/>
+        <element label="Sys class name" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Target table" max_length="40" name="target_table" type="short_table_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UID" max_length="40" name="uid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User" max_length="254" name="user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User ID" max_length="151" name="user_id" type="string"/>
+        <element label="Weight" max_length="10" name="weight" type="integer"/>
+        <index name="index">
+            <element name="instance"/>
+        </index>
+        <index name="index2">
+            <element name="subject"/>
+        </index>
+        <index name="index3">
+            <element name="sys_archived"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

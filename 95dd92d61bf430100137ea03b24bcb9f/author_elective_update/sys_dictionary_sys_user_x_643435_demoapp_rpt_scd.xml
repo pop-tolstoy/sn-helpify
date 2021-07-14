@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="x_643435_demoapp_rpt_scd" table="sys_user">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>scd</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>x_643435_demoapp_rpt_scd</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition>glidefunction:multiply(longitude,latitude)</function_definition>
+        <function_field>true</function_field>
+        <internal_type display_value="">float</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>sys_user</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 09:11:11</sys_created_on>
+        <sys_id>d77a52b31bb8b0100137ea03b24bcb3f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>scd</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_dictionary_sys_user_x_643435_demoapp_rpt_scd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 03:54:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>sys_dictionary_sys_user_x_643435_demoapp_rpt_scd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="x_643435_demoapp_rpt_scd" table="sys_user"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>scd</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>x_643435_demoapp_rpt_scd</element><element_reference>false</element_reference><foreign_database/><function_definition>glidefunction:multiply(longitude,latitude)</function_definition><function_field>true</function_field><internal_type display_value="">float</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>sys_user</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-24 09:11:11</sys_created_on><sys_id>d77a52b31bb8b0100137ea03b24bcb3f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>scd</sys_name><sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package><sys_policy/><sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope><sys_update_name>sys_dictionary_sys_user_x_643435_demoapp_rpt_scd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-25 03:54:35</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1622095286</payload_hash>
+        <record_name>User.scd</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 03:54:35</sys_created_on>
+        <sys_id>039b96401b45f0100137ea03b24bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a414e19390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 03:54:35</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>8b9b9640be45f0103d101d7c961cb799</update_guid>
+        <update_guid_history>8b9b9640be45f0103d101d7c961cb799:-1622095286,7f1b9e00f945f0109525d10ee016d38f:-32564191,d37ad6f347b8b010d529f2a9cfd04ad2:-1167251860</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 03:55:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>012a1b08a366482d83a71dfc310b1199</sys_id>
+        <sys_metadata>d77a52b31bb8b0100137ea03b24bcb3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scd</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent display_value="Sys User">5a9cf8036d2220100acb70b353433038</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>sys_dictionary_sys_user_x_643435_demoapp_rpt_scd</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sys_user_x_643435_demoapp_rpt_scd">039b96401b45f0100137ea03b24bcb9a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 03:55:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

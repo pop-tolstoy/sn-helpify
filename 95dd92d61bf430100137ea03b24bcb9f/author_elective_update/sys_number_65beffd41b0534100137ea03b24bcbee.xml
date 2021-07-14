@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_643435_demoapp_callrequest">x_643435_demoapp_callrequest</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CAL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 05:46:02</sys_created_on>
+        <sys_id>65beffd41b0534100137ea03b24bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAL</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_number_65beffd41b0534100137ea03b24bcbee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 05:46:02</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>sys_number_65beffd41b0534100137ea03b24bcbee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_643435_demoapp_callrequest">x_643435_demoapp_callrequest</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CAL</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-26 05:46:02</sys_created_on><sys_id>65beffd41b0534100137ea03b24bcbee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAL</sys_name><sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package><sys_policy/><sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope><sys_update_name>sys_number_65beffd41b0534100137ea03b24bcbee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-26 05:46:02</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1033569316</payload_hash>
+        <record_name>CAL</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 05:46:03</sys_created_on>
+        <sys_id>adbeffd41b0534100137ea03b24bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a46da81830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 05:46:03</sys_updated_on>
+        <type>Number</type>
+        <update_guid>e5beffd4580534102425d709d8ca92f4</update_guid>
+        <update_guid_history>e5beffd4580534102425d709d8ca92f4:-1033569316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 06:36:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>4d72949b90354ab4903b5313eb84cba4</sys_id>
+        <sys_metadata>65beffd41b0534100137ea03b24bcbee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAL</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent display_value="">fd2e3bd41b0534100137ea03b24bcb81</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>sys_number_65beffd41b0534100137ea03b24bcbee</sys_update_name>
+        <sys_update_version display_value="sys_number_65beffd41b0534100137ea03b24bcbee">adbeffd41b0534100137ea03b24bcbf4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 06:36:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

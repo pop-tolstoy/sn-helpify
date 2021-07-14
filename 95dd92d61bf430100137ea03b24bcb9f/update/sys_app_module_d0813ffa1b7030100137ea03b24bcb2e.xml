@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="Helpify(Get help nearby)">9343b37e1b7030100137ea03b24bcb2b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SCRIPT</link_type>
+        <map_page/>
+        <mobile_title>runscript</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query>function distnce(lat1, lon1, lat2, lon2) {&#13;
+    if ((lat1 == lat2) &amp;&amp; (lon1 == lon2)) {&#13;
+        return 0;&#13;
+    } else {&#13;
+        var radlat1 = Math.PI * lat1 / 180;&#13;
+        var radlat2 = Math.PI * lat2 / 180;&#13;
+        var theta = lon1 - lon2;&#13;
+        var radtheta = Math.PI * theta / 180;&#13;
+        var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);&#13;
+        if (dist &gt; 1) {&#13;
+            dist = 1;&#13;
+        }&#13;
+        dist = Math.acos(dist);&#13;
+        dist = dist * 180 / Math.PI;&#13;
+        dist = dist * 60 * 1.1515;&#13;
+        dist = dist * 1.609344;&#13;
+&#13;
+        return dist;&#13;
+    }&#13;
+}&#13;
+//var la2=0.00; var lo2=0.00;&#13;
+//var grr=new GlideRecord("sys_user");&#13;
+var userid = gs.getUserID();&#13;
+//Console.log(ui);&#13;
+//gs.info("this is user-"+ ui.sys_id + "");&#13;
+//gs.info("this is user-"+ ui+ "");&#13;
+/*grr.query();&#13;
+while(grr.next())&#13;
+{&#13;
+ if(grr.sys_id==ui) {la2=grr.latitude;  lo2=grr.longitude;}&#13;
+}*/&#13;
+var gt = new GlideRecord("sys_user");&#13;
+gt.get(userid);&#13;
+//gs.info("this is user-" + gt.first_name + "");&#13;
+var lt2 = gt.latitude;&#13;
+var lo2 = gt.longitude;&#13;
+var gr = new GlideRecord("sys_user");&#13;
+gr.query();&#13;
+while (gr.next()) {&#13;
+    if (gr.latitude &amp;&amp; gr.longitude) {&#13;
+        var lt1 = gr.latitude;&#13;
+        var lo1 = gr.longitude;&#13;
+        var dis = distnce(lt1, lo1, lt2, lo2);&#13;
+		//gs.info(""+gr.first_name+dis +"");&#13;
+		/*if(dis&lt;600)&#13;
+			{&#13;
+            var item = map.addItem(gr);&#13;
+            item.latitude = String(gr.latitude);&#13;
+            item.longitude = String(gr.longitude);&#13;
+            item.dialog_title = gr.getDisplayValue();&#13;
+            item.icon = "https://maps.google.com/mapfiles/kml/pal3/icon51.png";&#13;
+            item.icon_width = "32";&#13;
+            item.icon_height = "32";&#13;
+			}&#13;
+			*/&#13;
+		gr.x_643435_demoapp_distance=dis;&#13;
+                if(dis&lt;=5) gr.x_643435_demoapp_distancelabel='0';&#13;
+               else if(dis&lt;=10) gr.x_643435_demoapp_distancelabel='1';&#13;
+               else if(dis&lt;=20) gr.x_643435_demoapp_distancelabel='2';&#13;
+               else if(dis&lt;=50) gr.x_643435_demoapp_distancelabel='3';&#13;
+               else if(dis&lt;=100) gr.x_643435_demoapp_distancelabel='4';&#13;
+               else gr.x_643435_demoapp_distancelabel='5';&#13;
+                gr.update();&#13;
+;&#13;
+    }&#13;
+&#13;
+}</query>
+        <report/>
+        <roles>user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 13:01:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0813ffa1b7030100137ea03b24bcb2e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Update Locations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_app_module_d0813ffa1b7030100137ea03b24bcb2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 11:15:08</sys_updated_on>
+        <timeline_page/>
+        <title>Update Locations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_643435_demoapp_chat">x_643435_demoapp_chat</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CHA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 13:08:02</sys_created_on>
+        <sys_id>fa170a631bbc70100137ea03b24bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHA</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_number_fa170a631bbc70100137ea03b24bcb56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 13:08:02</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>sys_number_fa170a631bbc70100137ea03b24bcb56</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_643435_demoapp_chat">x_643435_demoapp_chat</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CHA</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-23 13:08:02</sys_created_on><sys_id>fa170a631bbc70100137ea03b24bcb56</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CHA</sys_name><sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package><sys_policy/><sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope><sys_update_name>sys_number_fa170a631bbc70100137ea03b24bcb56</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-23 13:08:02</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1321851726</payload_hash>
+        <record_name>CHA</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 13:08:02</sys_created_on>
+        <sys_id>32170a631bbc70100137ea03b24bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a38fc15970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 13:08:02</sys_updated_on>
+        <type>Number</type>
+        <update_guid>7a170a63d2bc701042aedacbf3875878</update_guid>
+        <update_guid_history>7a170a63d2bc701042aedacbf3875878:-1321851726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 13:14:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>1f0fd058390f4d58a9f99993207e8a04</sys_id>
+        <sys_metadata>fa170a631bbc70100137ea03b24bcb56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CHA</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent display_value="">dc3446ef1b7c70100137ea03b24bcbf8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>sys_number_fa170a631bbc70100137ea03b24bcb56</sys_update_name>
+        <sys_update_version display_value="sys_number_fa170a631bbc70100137ea03b24bcb56">32170a631bbc70100137ea03b24bcb79</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 13:14:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

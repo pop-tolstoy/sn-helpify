@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Remote Distance" max_length="40" name="x_643435_demoapp_st_userdistance" sizeclass="0" type="collection">
+        <element label="distance" max_length="40" name="distance" type="float"/>
+        <element choice="3" label="distance label" max_length="40" name="distance_label" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="10-20 km" value="2"/>
+                <element inactive_on_update="false" label="20-30 km" value="3"/>
+                <element inactive_on_update="false" label="5-10km" value="1"/>
+                <element inactive_on_update="false" label="more than 30 km" value="4"/>
+                <element inactive_on_update="false" label="upto 5 km" value="0"/>
+            </choice>
+        </element>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element label="User Department" max_length="32" name="user" type="string"/>
+        <element label="user" max_length="32" name="user_reference" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user_reference"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

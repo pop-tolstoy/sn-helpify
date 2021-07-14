@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_map_marker_marker_icon">
+    <m2m_map_marker_marker_icon action="INSERT_OR_UPDATE">
+        <marker display_value="nmarker">354513871bf830100137ea03b24bcba0</marker>
+        <marker_icon display_value="icon">bd9517871bf830100137ea03b24bcbdf</marker_icon>
+        <sys_class_name>m2m_map_marker_marker_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 05:38:43</sys_created_on>
+        <sys_id>b69613c71bf830100137ea03b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>m2m_map_marker_marker_icon_b69613c71bf830100137ea03b24bcb8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 05:38:43</sys_updated_on>
+    </m2m_map_marker_marker_icon>
+</record_update>

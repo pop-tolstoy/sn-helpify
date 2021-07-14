@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_643435_demoapp_st_userdistance" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>distance</element>
+            <list_id display_value="x_643435_demoapp_st_userdistance" element="NULL" name="x_643435_demoapp_st_userdistance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16951b9d1b8db4100137ea03b24bcb72</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 05:20:20</sys_created_on>
+            <sys_id>de951b9d1b8db4100137ea03b24bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 05:20:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>distance_label</element>
+            <list_id display_value="x_643435_demoapp_st_userdistance" element="NULL" name="x_643435_demoapp_st_userdistance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16951b9d1b8db4100137ea03b24bcb72</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 05:20:20</sys_created_on>
+            <sys_id>52951b9d1b8db4100137ea03b24bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 05:20:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="x_643435_demoapp_st_userdistance" element="NULL" name="x_643435_demoapp_st_userdistance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">16951b9d1b8db4100137ea03b24bcb72</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 05:20:20</sys_created_on>
+            <sys_id>d2951b9d1b8db4100137ea03b24bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 05:20:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 05:20:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16951b9d1b8db4100137ea03b24bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_643435_demoapp_st_userdistance</sys_name>
+            <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+            <sys_update_name>sys_ui_list_x_643435_demoapp_st_userdistance_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 05:20:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

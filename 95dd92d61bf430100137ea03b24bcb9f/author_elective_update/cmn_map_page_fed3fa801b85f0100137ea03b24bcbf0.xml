@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="DELETE">
+        <center_address>Yogododji, Africa</center_address>
+        <center_latitude>14.883333</center_latitude>
+        <center_longitude>-1.766667</center_longitude>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>2</initial_zoom>
+        <name>x_643435_demoapp_testadvancedmappage</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[//get the instances url so we can link back to it
+var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the incident table
+var count = new GlideAggregate('incident');
+//set condition for active incidents
+count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+count.addAggregate('COUNT', 'location');
+//execute the query
+count.query();
+ 
+//loop through the results
+while (count.next()) {
+ 
+ //get the current record's location
+ var loc = count.location;
+ //get the count of incidents for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+ //only display location is there are active incidents
+ if (locCount > 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude;
+ //build the link to the list of incidents for the location
+ var link = 'href=' + uri + 'incident_list.do?sysparm_query=active%3Dtrue^location%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='<a ' + link + '>' + loc.getDisplayValue() + ' (' + locCount + ')</a>';
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+ //set the size of the icon based on the number of active incidents
+ if (locCount < 5) {
+ item.icon_width = "12";
+ item.icon_height = "12";
+ }
+ else if (locCount < 15) {
+ item.icon_width = "16";
+ item.icon_height = "16";
+ }
+ else {
+ item.icon_width = "32";
+ item.icon_height = "32";
+ }
+ }
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>testadvancedmappage</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 05:41:29</sys_created_on>
+        <sys_id>fed3fa801b85f0100137ea03b24bcbf0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_643435_demoapp_testadvancedmappage</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>cmn_map_page_fed3fa801b85f0100137ea03b24bcbf0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 05:41:52</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>cmn_map_page_fed3fa801b85f0100137ea03b24bcbf0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="cmn_map_page"&gt;&lt;cmn_map_page action="INSERT_OR_UPDATE"&gt;&lt;center_address&gt;Yogododji, Africa&lt;/center_address&gt;&lt;center_latitude&gt;14.883333&lt;/center_latitude&gt;&lt;center_longitude&gt;-1.766667&lt;/center_longitude&gt;&lt;controls_size&gt;large&lt;/controls_size&gt;&lt;coordinates_retrieved_on/&gt;&lt;disable_map_controls/&gt;&lt;disable_nav_bar&gt;false&lt;/disable_nav_bar&gt;&lt;filter/&gt;&lt;initial_zoom&gt;2&lt;/initial_zoom&gt;&lt;name&gt;x_643435_demoapp_testadvancedmappage&lt;/name&gt;&lt;overview&gt;false&lt;/overview&gt;&lt;refresh_on_zoom&gt;false&lt;/refresh_on_zoom&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[//get the instances url so we can link back to it
+var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the incident table
+var count = new GlideAggregate('incident');
+//set condition for active incidents
+count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+count.addAggregate('COUNT', 'location');
+//execute the query
+count.query();
+ 
+//loop through the results
+while (count.next()) {
+ 
+ //get the current record's location
+ var loc = count.location;
+ //get the count of incidents for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+ //only display location is there are active incidents
+ if (locCount &gt; 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude;
+ //build the link to the list of incidents for the location
+ var link = 'href=' + uri + 'incident_list.do?sysparm_query=active%3Dtrue^location%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='&lt;a ' + link + '&gt;' + loc.getDisplayValue() + ' (' + locCount + ')&lt;/a&gt;';
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+ //set the size of the icon based on the number of active incidents
+ if (locCount &lt; 5) {
+ item.icon_width = "12";
+ item.icon_height = "12";
+ }
+ else if (locCount &lt; 15) {
+ item.icon_width = "16";
+ item.icon_height = "16";
+ }
+ else {
+ item.icon_width = "32";
+ item.icon_height = "32";
+ }
+ }
+}]]&gt;&lt;/script&gt;&lt;show_device_location&gt;true&lt;/show_device_location&gt;&lt;suffix&gt;testadvancedmappage&lt;/suffix&gt;&lt;sys_class_name&gt;cmn_map_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-25 05:41:29&lt;/sys_created_on&gt;&lt;sys_id&gt;fed3fa801b85f0100137ea03b24bcbf0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_643435_demoapp_testadvancedmappage&lt;/sys_name&gt;&lt;sys_package display_value="demoapp" source="x_643435_demoapp"&gt;95dd92d61bf430100137ea03b24bcb9f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="demoapp"&gt;95dd92d61bf430100137ea03b24bcb9f&lt;/sys_scope&gt;&lt;sys_update_name&gt;cmn_map_page_fed3fa801b85f0100137ea03b24bcbf0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-25 05:41:52&lt;/sys_updated_on&gt;&lt;type&gt;normal&lt;/type&gt;&lt;type_selection&gt;buttons&lt;/type_selection&gt;&lt;use_advanced_configuration&gt;false&lt;/use_advanced_configuration&gt;&lt;/cmn_map_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1499176517</payload_hash>
+        <record_name>x_643435_demoapp_testadvancedmappage</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 05:41:52</sys_created_on>
+        <sys_id>3a24fe801b85f0100137ea03b24bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a41b0536b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 05:41:52</sys_updated_on>
+        <type>Map Page</type>
+        <update_guid>b224fe804585f0103402d26e8032abda</update_guid>
+        <update_guid_history>b224fe804585f0103402d26e8032abda:-1499176517,1114be803685f0102492b0829e49637f:-905327287</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_643435_demoapp_testadvancedmappage">07b9f31d1b01f4100137ea03b24bcbff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 07:58:13</sys_created_on>
+        <sys_db_object display_value="" name="cmn_map_page">cmn_map_page</sys_db_object>
+        <sys_id>1ee5612f6a6648208974d228c4e1f690</sys_id>
+        <sys_metadata>fed3fa801b85f0100137ea03b24bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_643435_demoapp_testadvancedmappage</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>cmn_map_page_fed3fa801b85f0100137ea03b24bcbf0</sys_update_name>
+        <sys_update_version display_value="cmn_map_page_fed3fa801b85f0100137ea03b24bcbf0">3a24fe801b85f0100137ea03b24bcbda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 07:58:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="domain_master=contact_attempt" label="On-Call Escalation Notification" max_length="40" name="on_call_escalation_comm" sizeclass="0" type="collection">
+        <element label="Phone number" max_length="40" name="phone_number" type="ph_number"/>
+    </element>
+</database>

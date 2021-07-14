@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="demoapp">9343b37e1b7030100137ea03b24bcb2b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>connectchats</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_643435_demoapp_connectchat</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_643435_demoapp.connectchat_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 13:16:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>212982e31bbc70100137ea03b24bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>connectchats</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_app_module_212982e31bbc70100137ea03b24bcb83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 13:16:58</sys_updated_on>
+        <timeline_page/>
+        <title>connectchats</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>sys_app_module_212982e31bbc70100137ea03b24bcb83</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="demoapp">9343b37e1b7030100137ea03b24bcb2b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>connectchats</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_643435_demoapp_connectchat</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_643435_demoapp.connectchat_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-23 13:16:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>212982e31bbc70100137ea03b24bcb83</sys_id><sys_mod_count>0</sys_mod_count><sys_name>connectchats</sys_name><sys_overrides/><sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package><sys_policy/><sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope><sys_update_name>sys_app_module_212982e31bbc70100137ea03b24bcb83</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-23 13:16:58</sys_updated_on><timeline_page/><title>connectchats</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1025688829</payload_hash>
+        <record_name>connectchats</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 13:16:58</sys_created_on>
+        <sys_id>e12982e31bbc70100137ea03b24bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a390441360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 13:16:58</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2d2982e305bc70108a3e5dfd186a2e84</update_guid>
+        <update_guid_history>2d2982e305bc70108a3e5dfd186a2e84:1025688829</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="connectchats">95759aeb1bbc70100137ea03b24bcb5b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 14:10:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1e354d7db86744e8883aa7a4fec1d059</sys_id>
+        <sys_metadata>212982e31bbc70100137ea03b24bcb83</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>connectchats</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>sys_app_module_212982e31bbc70100137ea03b24bcb83</sys_update_name>
+        <sys_update_version display_value="sys_app_module_212982e31bbc70100137ea03b24bcb83">e12982e31bbc70100137ea03b24bcb85</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 14:10:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

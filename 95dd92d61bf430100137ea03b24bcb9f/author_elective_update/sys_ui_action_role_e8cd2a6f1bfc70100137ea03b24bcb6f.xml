@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 15:58:44</sys_created_on>
+        <sys_id>e8cd2a6f1bfc70100137ea03b24bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>connect.user</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_ui_action display_value="connect">1d806da71b3c70100137ea03b24bcba2</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_e8cd2a6f1bfc70100137ea03b24bcb6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:58:44</sys_updated_on>
+        <sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>sys_ui_action_role_e8cd2a6f1bfc70100137ea03b24bcb6f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-23 15:58:44</sys_created_on><sys_id>e8cd2a6f1bfc70100137ea03b24bcb6f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>connect.user</sys_name><sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package><sys_policy/><sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope><sys_ui_action display_value="connect">1d806da71b3c70100137ea03b24bcba2</sys_ui_action><sys_update_name>sys_ui_action_role_e8cd2a6f1bfc70100137ea03b24bcb6f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-23 15:58:44</sys_updated_on><sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>-1808100406</payload_hash>
+        <record_name>connect.user</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 15:58:44</sys_created_on>
+        <sys_id>9f2e6a6f1bfc70100137ea03b24bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a39985b9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:58:44</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>d72e6a6f54fc7010fc8dfb508d1a49a4</update_guid>
+        <update_guid_history>d72e6a6f54fc7010fc8dfb508d1a49a4:-1808100406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 07:28:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>85aa35a9e0b244fcab05e66e29fd7124</sys_id>
+        <sys_metadata>e8cd2a6f1bfc70100137ea03b24bcb6f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>connect.user</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_e8cd2a6f1bfc70100137ea03b24bcb6f</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_e8cd2a6f1bfc70100137ea03b24bcb6f">9f2e6a6f1bfc70100137ea03b24bcba4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 07:28:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

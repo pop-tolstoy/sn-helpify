@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="demoapp">a92982e31bbc70100137ea03b24bcb85</application>
+        <filter/>
+        <name>callrequests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_643435_demoapp.callrequest_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 05:46:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9beffd41b0534100137ea03b24bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>callrequests</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_ui_module_a9beffd41b0534100137ea03b24bcbbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 05:46:02</sys_updated_on>
+        <table>x_643435_demoapp_callrequest</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</application>
+        <file_path/>
+        <instance_id>ff0f938adb83e450431011f8489619b9</instance_id>
+        <instance_name>dev108296</instance_name>
+        <name>sys_ui_module_a9beffd41b0534100137ea03b24bcbbb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="demoapp">a92982e31bbc70100137ea03b24bcb85</application><filter/><name>callrequests</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_643435_demoapp.callrequest_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-26 05:46:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a9beffd41b0534100137ea03b24bcbbb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>callrequests</sys_name><sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package><sys_policy/><sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope><sys_update_name>sys_ui_module_a9beffd41b0534100137ea03b24bcbbb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-26 05:46:02</sys_updated_on><table>x_643435_demoapp_callrequest</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>345572059</payload_hash>
+        <record_name>callrequests</record_name>
+        <reverted_from/>
+        <source>69dd92d61bf430100137ea03b24bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 05:46:02</sys_created_on>
+        <sys_id>65beffd41b0534100137ea03b24bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a46da7f2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 05:46:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>adbeffd491053410715beb0b998162bd</update_guid>
+        <update_guid_history>adbeffd491053410715beb0b998162bd:345572059</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 06:36:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0fbd787ee70f4c68a3f0e8364d985790</sys_id>
+        <sys_metadata>a9beffd41b0534100137ea03b24bcbbb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>callrequests</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_scope_delete display_value="">25e9d29b12244500bf12c2f1502f1410</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a9beffd41b0534100137ea03b24bcbbb</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a9beffd41b0534100137ea03b24bcbbb">65beffd41b0534100137ea03b24bcbbe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 06:36:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

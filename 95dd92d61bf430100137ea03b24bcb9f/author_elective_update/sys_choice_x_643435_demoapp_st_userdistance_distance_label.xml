@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="distance_label" table="x_643435_demoapp_st_userdistance" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>distance_label</element>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 04:21:26</sys_created_on>
+            <sys_id>53184f151b8db4100137ea03b24bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>distance_label</sys_name>
+            <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+            <sys_update_name>sys_choice_x_643435_demoapp_st_userdistance_distance_label</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 04:21:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>distance_label</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>upto 5 km</label>
+            <language>en</language>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 04:21:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e418cfd11b8db4100137ea03b24bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 04:21:26</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>distance_label</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5-10km</label>
+            <language>en</language>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 04:21:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69280f151b8db4100137ea03b24bcb08</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 04:22:54</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>distance_label</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10-20 km</label>
+            <language>en</language>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 04:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6788f151b8db4100137ea03b24bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 04:23:10</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>distance_label</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>20-30 km</label>
+            <language>en</language>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 04:23:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce8883551b8db4100137ea03b24bcbe6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 11:05:05</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>distance_label</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>more than 30 km</label>
+            <language>en</language>
+            <name>x_643435_demoapp_st_userdistance</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 04:24:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9a807551b8db4100137ea03b24bcba9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 11:05:20</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Related Lists</name>
+        <order/>
+        <script><![CDATA[function onLoad() 
+{
+    g_form.hideRelatedLists();
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:05:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5e8ec7d1b4df4100137ea03b24bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Related Lists</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sys_script_client_d5e8ec7d1b4df4100137ea03b24bcb29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:05:48</sys_updated_on>
+        <table>sys_user</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view>userview</view>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_643435_demoapp_connectrequest</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p><strong>This email is sent to you from the system(helpify). You may reply to ${from}.<br /></strong></p>
+<p><em>${message}<br /></em><br /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>template</name>
+        <sms_alternate/>
+        <subject>Helpify: A User wants your help</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 09:19:59</sys_created_on>
+        <sys_id>201b00a91b41f4100137ea03b24bcbef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>template</sys_name>
+        <sys_package display_value="demoapp" source="x_643435_demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoapp">95dd92d61bf430100137ea03b24bcb9f</sys_scope>
+        <sys_update_name>sysevent_email_template_201b00a91b41f4100137ea03b24bcbef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 11:55:19</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

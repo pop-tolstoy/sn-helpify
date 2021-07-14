@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Email Requests" max_length="40" name="x_643435_demoapp_connectrequest" sizeclass="11" type="collection">
+        <element default="javascript:gs.getUser().email+'';" label="From" mandatory="true" max_length="80" name="from" type="string"/>
+        <element default="Hi , I would be very thankful if you can help me with" label="message" mandatory="true" max_length="500" name="message" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.first_name+'';" label="Sendto" mandatory="true" max_length="80" name="sendto" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
